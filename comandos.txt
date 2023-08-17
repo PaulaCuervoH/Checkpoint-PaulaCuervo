@@ -1,0 +1,25 @@
+   62  git init
+   63  git remote add origin https://github.com/PaulaCuervoH/Checkpoint-PaulaCuervo.git
+   64  git status
+   65  git log --online
+   66  git log --oneline
+   67  git checkout
+   68  ls -a
+   69  clear
+   70  touch main.js index.html
+   71  git add .
+   72  git commit -m "commit 01 de PaulaCuervo"
+   73  git push origin main
+   74  git branch feature
+   75  git switch feature
+   76  mkdir Hardware Software SeguridadInformatica
+   77  touch /Hardware/resumen.txt
+   78  touch Hardware/resumen.txt
+   79  touch Software/resumen.txt SeguridadInformatica/Resumen.txt    
+   80  git add .
+   81  git commit -m "commit 02 de PaulaCuervo"
+   82  git push origin feature
+   83  git switch main
+   84  mv main.js resumenHardware.txt
+   85  mv index.html resumenSoftware.txt
+   86  touch comandos.txt
